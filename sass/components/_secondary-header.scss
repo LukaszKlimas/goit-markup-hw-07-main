@@ -1,0 +1,13 @@
+.secondary-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: $font36;
+  line-height: 1.666;
+  text-align: center;
+  letter-spacing: $letter03;
+
+  .staff & {
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
+}

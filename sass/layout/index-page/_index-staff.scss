@@ -1,0 +1,25 @@
+.staff__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.staff__p {
+  text-align: center;
+}
+
+.staff {
+  background: $light;
+}
+
+.staff__item {
+  width: 270px;
+  height: 428px;
+  left: 815px;
+  top: 1635px;
+
+  background: $white;
+
+  box-shadow: 0px 1px 3px $black012, 0px 1px 1px $black014,
+    0px 2px 1px $black02;
+  border-radius: 0px 0px 4px 4px;
+}

@@ -1,0 +1,53 @@
+.advantages__Loremh4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: $font14;
+  line-height: 1.43;
+  letter-spacing: $letter03;
+  text-transform: uppercase;
+  left: 215px;
+  top: 774px;
+}
+
+.advantages__Loremp {
+  font-style: normal;
+  font-weight: normal;
+  font-size: $font14;
+  line-height: 1.714;
+  letter-spacing: $letter03;
+  color: $secondary;
+}
+
+.advantages__Loremlist {
+  display: flex;
+  align-items: center;
+}
+
+.advantages {
+  padding-top: 94px;
+  margin: 0;
+}
+.advantages__Loremitem{
+  top: 774px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+    top: 93px;
+  }
+}
+
+.advantages__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.advantages_link {
+  fill: $light-gray;
+}
+
+.advantages__icon {
+  width: 270px;
+  height: 120px;
+}

@@ -1,0 +1,34 @@
+.button__content h1 {
+  font-style: normal;
+  font-weight: $xbold;
+  font-size: $font44;
+  line-height: 1.364;
+
+  text-align: center;
+  letter-spacing: $letter06;
+  color: $white;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button {
+  background-image: linear-gradient(
+      $dark-shade,
+      $dark-shade
+    ),
+    url("../images/background.jpg");
+  height: 37.5rem;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+  max-width: 1600px;
+  margin: 0 auto;
+}

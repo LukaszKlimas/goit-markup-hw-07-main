@@ -1,0 +1,23 @@
+.logo {
+  margin-right: 93px;
+  font-family: var(--secondary-font);
+  color: $primary;
+
+  .footer__logo & {
+    font-style: normal;
+    font-weight: bold;
+    font-size: $font26;
+    line-height: 1.192;
+    letter-spacing: $letter03;
+  }
+}
+
+.logo__color {
+  color: $accent;
+}
+
+.footer__logo {
+  font-family: var(--secondary-font);
+  margin-top: 60px;
+  color:  $white;
+}
